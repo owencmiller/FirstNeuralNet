@@ -18,7 +18,7 @@ public class Button extends JButton implements ActionListener
     private Display dis;
     private int [] inputValues;
     
-    private int trainingIterations = 1000;
+    private int trainingIterations = 1000000;
     
     public Button(Button [] buttons, Brain brain){
     	super();
