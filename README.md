@@ -1,5 +1,5 @@
 # Basic Neural Network
-This is my first neural network. Screen.java contains the main method which creates and runs the network. 
+This is my first neural network. Screen.java contains the main method which creates and runs the network. It is object oreiented where each neuron is its own class and stores its own weights.
 
 ## Instructions
 Run Screen.java  
