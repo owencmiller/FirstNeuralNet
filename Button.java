@@ -106,7 +106,8 @@ public class Button extends JButton implements ActionListener
                 guess = brain.getGuess();
                 brain.train(i % (brain.numOutputs-1));
                 brain.update(brain.numPresets[i % (brain.numOutputs-1)]);
-                System.out.println("Error: " + Math.pow(guess - brain.getGuess(),2));
+		//This line was crashing your program when someone hits "Train Presets"
+                //System.out.println("Error: " + Math.pow(guess - brain.getGuess(),2));
                 dis.repaint();
                 
                 //System.out.println();
